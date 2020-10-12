@@ -3,12 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-main {
-  width: 100%vw;
-  height: 100%vh;
-  background: grey;
-}
-
 .container{
   width: 200px;
   height: 150px;
