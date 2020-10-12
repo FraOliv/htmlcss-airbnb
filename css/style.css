@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0%;
+  padding: 0;
   box-sizing: border-box;
 }
 main {
@@ -16,6 +16,7 @@ main {
   position: relative;
   background-size: cover;
   background-position: center;
+  box-shadow: 10px 10px 8px #888888;
 
 
 }
@@ -33,7 +34,10 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 2px 2px #ff0000;
 }
+
+/* Qui iniziano le immagini delle città */
 .milano{
   background-image: url(../img/milano.jpg);
   display: block;
@@ -57,3 +61,4 @@ main {
   background-image: url(../img/vienna.jpg);
     display: block;
 }
+/* Qui finiscono le immagini delle città */
