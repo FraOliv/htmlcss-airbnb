@@ -3,22 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(30,45,60)
+}
+
 .container{
-  width: 200px;
-  height: 150px;
-  border:7px solid white;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
   position: relative;
   background-size: cover;
   background-position: center;
   box-shadow: 10px 10px 8px #888888;
-
-
+  cursor: pointer;
 }
+
 .layover{
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
   width: 100%;
   height: 100%
+}
+/* ".container:hover .layover"
+aggiunto durante correzione esercizio in classe (DA RICORDARE) */
+
+.container:hover .layover {
+  background: rgba(0, 0, 0, 0.0);
 }
 
 .title{
@@ -29,22 +39,26 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 2px 2px #ff0000;
+  /* text-transform: uppercase; qui potevo usare il text transform
+  per applicare la proprietà uppercase */
 }
 
 /* Qui iniziano le immagini delle città */
+
 .milano{
   background-image: url(../img/milano.jpg);
   display: block;
 
 }
+
 .napoli{
   background-image: url(../img/napoli.jpg);
   display: block;
-
 }
+
 .roma{
   background-image: url(../img/roma.jpg);
-    display: block;
+  display: block;
 }
 .amsterdam{
   background-image: url(../img/amsterdam.jpg);
@@ -53,6 +67,6 @@
 }
 .vienna{
   background-image: url(../img/vienna.jpg);
-    display: block;
+  display: block;
 }
 /* Qui finiscono le immagini delle città */
